@@ -21,7 +21,7 @@ import static org.hamcrest.Matchers.closeTo;
 import static org.hamcrest.Matchers.lessThan;
 
 
-public class Testerhome {
+public class TesterhomeTest {
 
     //封装断言
     static ResponseSpecification rs = new ResponseSpecBuilder().build();

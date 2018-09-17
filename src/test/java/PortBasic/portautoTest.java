@@ -7,7 +7,7 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.*;
 
-public class portauto {
+public class portautoTest {
 
     //配置RestAssured代理
     @BeforeClass

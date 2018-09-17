@@ -8,7 +8,7 @@ import org.junit.Test;
 import static io.restassured.RestAssured.*;
 
 
-public class portbasic2 {
+public class portbasic2Test {
 
     @Test
     public void test1() {

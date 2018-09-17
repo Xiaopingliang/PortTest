@@ -17,7 +17,7 @@ import java.util.HashMap;
 
 
 
-public class ShanghaiServerInterface {
+public class ShanghaiServerInterfaceTest {
 
     ResponseSpecification rs =  new ResponseSpecBuilder().build();
 
