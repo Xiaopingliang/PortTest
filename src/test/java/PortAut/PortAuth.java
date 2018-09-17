@@ -7,6 +7,7 @@ import static io.restassured.RestAssured.*;
 
 public class PortAuth {
 
+    /*
     //配置RestAssured代理
     @BeforeClass
     public void setup(){
@@ -14,6 +15,7 @@ public class PortAuth {
         RestAssured.proxy("127.0.0.1",8080);
 
     }
+
 
     //验证登录信息
     @Test
@@ -26,4 +28,5 @@ public class PortAuth {
         .then()
                 .statusCode(200);
     }
+    */
 }

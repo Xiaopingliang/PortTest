@@ -58,10 +58,7 @@ public class portauto {
         get("https://testerhome.com/{topicid}/{topics}",map).prettyPeek();
     }
 
-    public static void main(String[] args) {
 
-
-    }
 
 }
 

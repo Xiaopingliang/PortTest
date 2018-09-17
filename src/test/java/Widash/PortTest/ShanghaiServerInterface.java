@@ -25,7 +25,7 @@ public class ShanghaiServerInterface {
     @BeforeClass
     public void setup(){
 
-        RestAssured.baseURI="https://app.tccpayment.com";
+        RestAssured.baseURI="https://app.tccpay.com";
 
         rs.statusCode(200);
 
@@ -39,7 +39,7 @@ public class ShanghaiServerInterface {
     public void networkResponseTime(){
 
 
-        rs.body(containsString("一二三四五六七八九十一二三四五六七八九十"));
+        //rs.body(containsString("一二三四五六七八九十一二三四五六七八九十"));
         given()
                 .when().get("/test/te").prettyPeek()
                 .then().spec(rs);
@@ -97,6 +97,7 @@ public class ShanghaiServerInterface {
         System.out.println(jsonObject1.get("out_trade_no"));
 
     }
+
 
     @Test
     public void payorder(){
