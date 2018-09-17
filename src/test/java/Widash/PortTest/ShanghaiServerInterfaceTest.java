@@ -41,8 +41,8 @@ public class ShanghaiServerInterfaceTest {
 
         //rs.body(containsString("一二三四五六七八九十一二三四五六七八九十"));
         given()
-                .when().get("/test/te").prettyPeek()
-                .then().spec(rs);
+                .when().get("/test/te").prettyPeek();
+                //.then().spec(rs);
 
     }
 
