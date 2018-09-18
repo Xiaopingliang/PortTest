@@ -158,12 +158,13 @@ public class TesterhomeTest {
     public void testhome(){
 
         useRelaxedHTTPSValidation();
-        given().queryParam("limit",20)
+        given().queryParam("limit",1)
                 .log().all()
                 .when().get("/api/v3/topics.json")
                 .then()
                 .log().all()
-                .body("topics.find{ it.title == '美团技术沙龙北京站：千万级日活 App 的质量保证'}.user.name",equalTo("美团点评"));
+                //.body("topics.find{ it.title == '美团技术沙龙北京站：千万级日活 App 的质量保证'}.user.name",equalTo("美团点评"))
+        ;
 
     }
 
