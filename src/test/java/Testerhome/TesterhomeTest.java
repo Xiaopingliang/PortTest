@@ -225,7 +225,7 @@ public class TesterhomeTest {
                // .body("data.items[0].market.status",equalTo("交易中"))
                 .body("data.items[0].quote.exchange",equalTo("SH"))
                 //find找到的size是data.items.quote的size,findAll找到的size是exchange的size
-                .body("data.items.quote.findAll{it.exchange == 'SH'}.size()",equalTo(1));
+                .body("data.items.quote.findAll{it.exchange == 'SH'}.size()",equalTo(2));
 
     }
 
