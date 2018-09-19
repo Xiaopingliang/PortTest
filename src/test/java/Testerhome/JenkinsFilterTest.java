@@ -36,10 +36,12 @@ public class JenkinsFilterTest {
     }
 
 
+
     /**
      * Jenkins登录接口
      * 实现自动登录->自动打包
      */
+    /*
     @Test
     public void loginJenkins(){
         //请求参数
@@ -93,4 +95,5 @@ public class JenkinsFilterTest {
                 .statusCode(201);
 
     }
+    */
 }

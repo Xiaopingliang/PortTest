@@ -32,6 +32,7 @@ public class JenkinsSessionfilterTest {
      * Jenkins登录接口
      * 实现自动登录
      */
+    /*
     @Test
     public void loginJenkins(){
         //请求参数
@@ -68,6 +69,7 @@ public class JenkinsSessionfilterTest {
     /**
      * 实现PortTest项目自动打包
      */
+    /*
     @Test(dependsOnMethods = "loginJenkins")
     public void autoBuild(){
 
@@ -95,4 +97,6 @@ public class JenkinsSessionfilterTest {
         ;
 
     }
+
+    */
 }
